@@ -1,0 +1,40 @@
+#grid
+{
+  display: grid;
+  grid-template-columns: repeat(16,30px);
+  grid-template-rows: repeat(16,30px); 
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  
+
+
+}
+.square
+{
+  border: 1px solid #352c2c;
+}
+h1{
+  text-align: center;
+  color: #ac9e23; 
+  font-family: monospace, sans serif;
+   font-size: 45px; 
+   font-weight: normal;
+    line-height: 48px;
+    font-weight: bold;
+     margin: 0;
+}
+#reset-c
+{
+  width: 100px;
+  margin: 0 auto;
+  margin-top:2rem ;
+  margin-bottom: 0%;
+}
+button{
+border-radius: 5%;
+width: 100px;
+font-size: 1.5rem;
+background-color: chartreuse;
+border: 2px solid forestgreen;
+}
